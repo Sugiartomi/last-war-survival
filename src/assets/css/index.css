@@ -1,0 +1,171 @@
+
+
+.font-roboto {
+	font-family: "Roboto";
+}
+
+.font-inter {
+	font-family: "Inter";
+}
+.fs-12 {
+	font-size: 12px;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-18 {
+	font-size: 18px;
+}
+.fs-24 {
+	font-size: 24px;
+}
+
+.fs-48 {
+	font-size: 48px;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.form-control::placeholder {
+	color: #6c757d !important;
+	font-size: 14px;
+	padding-left: 16px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+	.fs-12 {
+		font-size: 10px;
+	}
+	.fs-14 {
+		font-size: 11px;
+	}
+
+	.fs-16 {
+		font-size: 13px;
+	}
+
+	.fs-18 {
+		font-size: 15px;
+	}
+
+	.fs-48 {
+		font-size: 42px;
+	}
+}
+
+.gradient-blue {
+	background: linear-gradient(92deg, #2752e7, #041b6a);
+	background-size: 400% 400%;
+
+	-webkit-animation: AnimationName 6s ease infinite;
+	-moz-animation: AnimationName 6s ease infinite;
+	animation: AnimationName 6s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes AnimationName {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.gradient-grey {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: linear-gradient(45deg, #999898, #ffffff, #d9d7d7);
+	background-size: 600% 100%;
+	animation: gradient 6s linear infinite;
+	animation-direction: alternate;
+}
+.gradient-silver-sky {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: linear-gradient(45deg, #a0c9cf , #A0C9CF, #A0C9CF, #ffffff, #d9d7d7, #A0C9CF, #A0C9CF);
+	background-size: 600% 100%;
+	animation: gradient 6s linear infinite;
+	animation-direction: alternate;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0%;
+	}
+
+	100% {
+		background-position: 100%;
+	}
+}
+
+.dropdown-hover:hover .dropdown-hover-content {display: block;}
+
+
+.icon-number-none[type="number"]::-webkit-inner-spin-button,
+.icon-number-none[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+

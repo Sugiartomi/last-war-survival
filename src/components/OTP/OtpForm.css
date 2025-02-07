@@ -1,0 +1,25 @@
+.otp-form-container-custom {
+    margin: 20px 0;
+}
+
+.otp-form-container-custom .otp-inputs-section-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-form-container-custom .otp-inputs-section-custom .otp-input-group-custom input {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+}
+
+.otp-form-container-custom .otp-inputs-section-custom .otp-input-group-custom:last-child input {
+    margin-right: 0;
+}
