@@ -34,17 +34,24 @@ export default function NeedHelpLandingPage() {
         <div className="container mt-5">
           <div className="row">
             <div className="col-4">
-              <div className="card py-5">
+              <div
+                className="card py-5"
+                onClick={() =>
+                  window.open(
+                    "mailto:customer@lastwarsurvival.com?subject=Subject&body=Body%20goes%20here"
+                  )
+                }
+              >
                 <div className="d-flex justify-content-center">
                   <div className="col-7">
                     <div className="d-flex justify-content-center">
-                      <Headphones size={72} className="text-primary" />
+                      <Headphones size={72} className="text-warning" />
                     </div>
                   </div>
                 </div>
                 <div className="card-body">
                   <div
-                    className="card-text font-roboto text-center"
+                    className="card-text font-roboto text-center text-primary"
                     style={{
                       fontSize: 24,
                       fontWeight: 700,
@@ -53,7 +60,7 @@ export default function NeedHelpLandingPage() {
                     Support
                   </div>
                   <div
-                    className="card-text font-roboto text-center"
+                    className="card-text font-roboto text-center text-secondary"
                     style={{
                       fontSize: 16,
                       fontWeight: 400,
@@ -66,17 +73,25 @@ export default function NeedHelpLandingPage() {
               </div>
             </div>
             <div className="col-4">
-              <div className="card py-5">
+              <div
+                className="card py-5"
+                onClick={() =>
+                  window.open(
+                    "https://www.lastwar.com/en/home.html?1738832852164",
+                    "_blank"
+                  )
+                }
+              >
                 <div className="d-flex justify-content-center">
                   <div className="col-7">
                     <div className="d-flex justify-content-center">
-                      <InfoCircleFill size={72} className="text-primary" />
+                      <InfoCircleFill size={72} className="text-warning" />
                     </div>
                   </div>
                 </div>
                 <div className="card-body">
                   <div
-                    className="card-text font-roboto text-center"
+                    className="card-text font-roboto text-center text-primary"
                     style={{
                       fontSize: 24,
                       fontWeight: 700,
@@ -85,7 +100,7 @@ export default function NeedHelpLandingPage() {
                     Information & Tutorial
                   </div>
                   <div
-                    className="card-text font-roboto text-center"
+                    className="card-text font-roboto text-center text-secondary"
                     style={{
                       fontSize: 16,
                       fontWeight: 400,
@@ -97,17 +112,25 @@ export default function NeedHelpLandingPage() {
               </div>
             </div>
             <div className="col-4">
-              <div className="card py-5">
+              <div
+                className="card py-5"
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/profile.php?id=61566336664332&_rdc=1&_rdr#",
+                    "_blank"
+                  )
+                }
+              >
                 <div className="d-flex justify-content-center">
                   <div className="col-7">
                     <div className="d-flex justify-content-center">
-                      <Globe size={72} className="text-primary" />
+                      <Globe size={72} className="text-warning" />
                     </div>
                   </div>
                 </div>
                 <div className="card-body">
                   <div
-                    className="card-text font-roboto text-center"
+                    className="card-text font-roboto text-center text-primary"
                     style={{
                       fontSize: 24,
                       fontWeight: 700,
@@ -116,7 +139,7 @@ export default function NeedHelpLandingPage() {
                     Community
                   </div>
                   <div
-                    className="card-text font-roboto text-center"
+                    className="card-text font-roboto text-center text-secondary"
                     style={{
                       fontSize: 16,
                       fontWeight: 400,

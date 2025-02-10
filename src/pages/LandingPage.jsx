@@ -39,12 +39,12 @@ export default function LandingPage() {
                   backgroundColor: "#FFFFFF30",
                 }}
               >
-                <span style={{ fontSize: 50, color: "#FFFFFF" }}>
-                  Asset . Trade .{" "}
+                <span style={{ fontSize: 24, color: "#FFFFFF" }}>
                   <span className="" style={{ color: "#088F8F" }}>
-                    one-Click
+                    Disclaimer!
                   </span>{" "}
-                  . Glory
+                  This website is just for fun, not Last War Survival official
+                  but this is Tomi Sugiarto's Web Portfolio
                 </span>
               </div>
             </div>
@@ -85,8 +85,9 @@ export default function LandingPage() {
                         backgroundColor: "#00000040",
                       }}
                     >
-                      <span style={{ fontSize: 24 }}>"</span> This exchange can
-                      take place through various online platforms, though it's
+                      <span style={{ fontSize: 24 }}>"</span>{" "}
+                      <strong>Last War Exchange</strong>. This exchange can take
+                      place through various online platforms, though it's
                       important for players to be cautious when engaging in such
                       transactions to avoid scams. The growing demand for game
                       currency has led to an entire secondary market where
@@ -137,8 +138,28 @@ export default function LandingPage() {
                 Barbarians. Download for free and Clash on, Chief!
               </div>
               <div className="d-flex mt-4">
-                <img src={playstore} alt="" className="rounded" />
-                <img src={appstore} alt="" className="rounded ms-4 bg-white" />
+                <img
+                  src={playstore}
+                  alt=""
+                  className="rounded"
+                  onClick={() =>
+                    window.open(
+                      "https://play.google.com/store/apps/details?id=com.fun.lastwar.gp&gl=ph",
+                      "_blank"
+                    )
+                  }
+                />
+                <img
+                  src={appstore}
+                  alt=""
+                  className="rounded ms-4 bg-white"
+                  onClick={() =>
+                    window.open(
+                      "https://apps.apple.com/it/app/last-war-survival/id6448786147",
+                      "_blank"
+                    )
+                  }
+                />
               </div>
             </div>
           </div>

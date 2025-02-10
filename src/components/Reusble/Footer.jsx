@@ -55,48 +55,55 @@ export default function Footer() {
                 <li>
                   <a> +15097876310</a>
                 </li>
-                <li className="d-flex justify-content-start mt-4 px-2">
+                <li className="d-flex justify-content-start mt-4">
                   <a
-                    href="https://www.facebook.com/digitalexchangeid/"
+                    href="https://www.facebook.com/profile.php?id=61566336664332&_rdc=1&_rdr#"
                     style={{ color: "#808080" }}
+                    target="_blank"
                     className="px-2"
                   >
-                    <Facebook />
+                    <Facebook size={30} />
                   </a>
                   <a
-                    href="https://twitter.com/Digiexchangeid"
+                    href="https://x.com/lastwarsurvival/status/1777664922647920640"
                     style={{ color: "#808080" }}
+                    target="_blank"
                     className="px-2"
                   >
-                    <Twitter />
+                    <Twitter size={30} />
                   </a>
                   <a
-                    href="https://www.instagram.com/digitalexchangeid/"
+                    href="https://www.instagram.com/lastwarsurvival_official/?hl=id"
                     style={{ color: "#808080" }}
+                    target="_blank"
+                    className="px-2"
                   >
-                    <Instagram />
+                    <Instagram size={30} />
                   </a>
 
                   <a
-                    href="https://www.youtube.com/channel/UCd0BzVZBiVyctJ5mNTVqF-w"
+                    href="https://www.youtube.com/channel/UCwMSgEuR4Mf2BzhmqZWp1Lw"
                     style={{ color: "#808080" }}
+                    target="_blank"
                     className="px-2"
                   >
-                    <Youtube />
+                    <Youtube size={30} />
                   </a>
                   <a
-                    href="https://t.me/digitalexchangeidcommunity"
+                    href="https://www.lastwar.com/en/home.html?1738832852164"
                     style={{ color: "#808080" }}
+                    target="_blank"
                     className="px-2"
                   >
-                    <Telegram />
+                    <Telegram size={30} />
                   </a>
                   <a
-                    href="https://www.tiktok.com/@digitalexchange.id?lang=en"
+                    href="https://www.lastwar.com/en/home.html?1738832852164"
                     style={{ color: "#808080" }}
+                    target="_blank"
                     className="px-2"
                   >
-                    <Tiktok />
+                    <Tiktok size={30} />
                   </a>
                 </li>
               </ul>
@@ -109,7 +116,7 @@ export default function Footer() {
               <ul className="list-unstyled mb-0 font-inter fs-16 fw-400">
                 <li className="mb-2 ">
                   <a
-                    href="https://digitalexchange.id/privacy-policy"
+                    href="https://www.lastwar.com/en/home.html?1738832852164#gameinfo"
                     className="text-white"
                     style={{ textDecoration: "none" }}
                   >
@@ -118,7 +125,7 @@ export default function Footer() {
                 </li>
                 <li className="mb-2">
                   <a
-                    href="https://digitalexchange.id/risk-disclosure"
+                    href="https://www.lastwar.com/en/home.html?1738832852164#gameinfo"
                     className="text-white"
                     style={{ textDecoration: "none" }}
                   >
@@ -127,7 +134,7 @@ export default function Footer() {
                 </li>
                 <li className="mb-2">
                   <a
-                    href="https://digitalexchange.id/term-of-services"
+                    href="https://www.lastwar.com/en/home.html?1738832852164#gameinfo"
                     className="text-white"
                     style={{ textDecoration: "none" }}
                   >
@@ -136,7 +143,7 @@ export default function Footer() {
                 </li>
                 <li className="mb-2">
                   <a
-                    href="https://digitalexchange.id/aml-cft"
+                    href="https://www.lastwar.com/en/home.html?1738832852164#gameinfo"
                     className="text-white"
                     style={{ textDecoration: "none" }}
                   >
@@ -148,10 +155,24 @@ export default function Footer() {
 
             <div className="col-lg-2 col-md-12 mb-lg-0 px-0">
               <div className="text-white mb-4 font-inter fs-18 fw-600">
-                Term of Services
+                <a
+                  href="https://lastwar-h5.lastwargame.com/app/terms_new.html"
+                  target="_blank"
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                >
+                  Term of Services
+                </a>
               </div>
               <div className="text-white mb-4 font-inter fs-18 fw-600">
-                Privacy Policy
+                <a
+                  href="https://lastwar-h5.lastwargame.com/app/privacy_new.html"
+                  target="_blank"
+                  className="text-white"
+                  style={{ textDecoration: "none" }}
+                >
+                  Privacy Policy
+                </a>
               </div>
             </div>
             <div className="col-lg-3 col-md-12 mb-lg-0 px-0">

@@ -138,7 +138,7 @@ export default function BalancePackage({ visibility }) {
                   className="font-inter fs-14 fw-600 ms-3"
                   style={{ marginTop: 6 }}
                 >
-                  Total Activation Key
+                  Badge & Achievement
                 </p>
               </div>
               {visibility ? (
@@ -179,7 +179,7 @@ export default function BalancePackage({ visibility }) {
                   className="font-inter fs-14-fw-600 ms-3"
                   style={{ marginTop: 6 }}
                 >
-                  Total Crystal
+                  Crystal
                 </p>
               </div>
               {visibility ? (

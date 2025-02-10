@@ -49,7 +49,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link pointer" href="#support">
-                  Informasi & Tutorial
+                  Informasion & Tutorial
                 </a>
               </li>
               <li className="nav-item dropdown dropdown-hover">
@@ -60,7 +60,7 @@ export default function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Komunitas
+                  Community
                 </a>
                 <ul className="dropdown-menu dropdown-hover-content">
                   <li>

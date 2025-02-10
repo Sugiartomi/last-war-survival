@@ -81,7 +81,12 @@ export default function NavbarTrue() {
 
               <li className="nav-item dropdown dropdown-hover list-unstyled">
                 <a
-                  onClick={() => navigate("/activation-key/card")}
+                  onClick={() =>
+                    window.open(
+                      "https://lastwar.wiki/category/items/",
+                      "_blank"
+                    )
+                  }
                   className={
                     pathname === "/activation-key/card" ||
                     pathname === "/activation-key/history"
@@ -93,7 +98,7 @@ export default function NavbarTrue() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Gamepedia
+                  Wiki
                 </a>
               </li>
               <li className="nav-item dropdown dropdown-hover">
