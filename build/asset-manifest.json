@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.98f5d1ec.css",
-    "main.js": "/static/js/main.883eb307.js",
+    "main.js": "/static/js/main.5df2c299.js",
     "static/js/787.e8337087.chunk.js": "/static/js/787.e8337087.chunk.js",
+    "static/media/banner1.jpg": "/static/media/banner1.a420c966a561593e188a.jpg",
+    "static/media/banner6.jpg": "/static/media/banner6.e018d066c7a9fbfcd949.jpg",
     "static/media/sample-image-1.png": "/static/media/sample-image-1.5bbd9434e6d78c56de40.png",
+    "static/media/banner7.jpg": "/static/media/banner7.05ba872a83b050204160.jpg",
     "static/media/packagetobuy.png": "/static/media/packagetobuy.4836acb4858ed47980a0.png",
     "static/media/lastwar4.png": "/static/media/lastwar4.970bd8660016d6da6d2a.png",
     "static/media/Alliance-Center-1024x1024.png": "/static/media/Alliance-Center-1024x1024.d6268468bb2ba63badee.png",
     "static/media/browser-safari.png": "/static/media/browser-safari.78190cf35f8b72637dd4.png",
     "static/media/bg-banner.jpg": "/static/media/bg-banner.2e4df24c44f54f9486d4.jpg",
     "static/media/Drone-Parts-2.png": "/static/media/Drone-Parts-2.40e2280e07bc05e342f9.png",
+    "static/media/banner2.jpg": "/static/media/banner2.b24ef2d2208b56089c93.jpg",
+    "static/media/banner3.jpg": "/static/media/banner3.6e5bb069c15fcb7bf03a.jpg",
     "static/media/Upgrade-Ore.png": "/static/media/Upgrade-Ore.560b0377cd8283458649.png",
     "static/media/lastwar2.png": "/static/media/lastwar2.4d654dece71f9e4ce55b.png",
     "static/media/ktp-ri.svg": "/static/media/ktp-ri.dca8c812699aae9128217281b6cf1638.svg",
     "static/media/ktp-female.png": "/static/media/ktp-female.e1e397de3771f4b91921.png",
     "static/media/lastwar.png": "/static/media/lastwar.3392af3ab5ccf8dafd33.png",
+    "static/media/banner4.jpg": "/static/media/banner4.f84f5d2f97cea7a5a65f.jpg",
     "static/media/ktp-male.png": "/static/media/ktp-male.9338797c541121e8f973.png",
     "static/media/IBMPlexSerif-SemiBoldItalic-Cyrillic.woff": "/static/media/IBMPlexSerif-SemiBoldItalic-Cyrillic.d96e5a614e96c351c453.woff",
     "static/media/IBMPlexSerif-SemiBoldItalic-Latin1.woff": "/static/media/IBMPlexSerif-SemiBoldItalic-Latin1.b691d8c0c5110ea3659e.woff",
@@ -116,6 +122,7 @@
     "static/media/apple-store.svg": "/static/media/apple-store.2d01ada03ad282ecec25f5018816f1eb.svg",
     "static/media/IBMPlexMono-Italic-Cyrillic.woff2": "/static/media/IBMPlexMono-Italic-Cyrillic.64e1054a50262b9083ab.woff2",
     "static/media/IBMPlexMono-Light-Latin1.woff2": "/static/media/IBMPlexMono-Light-Latin1.62fd670eebf4976bb6df.woff2",
+    "static/media/banner5.jpeg": "/static/media/banner5.2f2b6458418590e80023.jpeg",
     "static/media/IBMPlexMono-Regular-Latin1.woff2": "/static/media/IBMPlexMono-Regular-Latin1.19239848cb5cdf02953e.woff2",
     "static/media/IBMPlexMono-SemiBold-Latin2.woff2": "/static/media/IBMPlexMono-SemiBold-Latin2.b0ec1af29941e0f52305.woff2",
     "static/media/IBMPlexMono-LightItalic-Latin2.woff2": "/static/media/IBMPlexMono-LightItalic-Latin2.c6dd22ce106021638df7.woff2",
@@ -214,11 +221,11 @@
     "static/media/phone-checklist.svg": "/static/media/phone-checklist.b69f3436722bc6035b96cbef206adde1.svg",
     "static/media/pin-checklist.svg": "/static/media/pin-checklist.2b9402a6779221a58b6203ea29c0e9e0.svg",
     "main.98f5d1ec.css.map": "/static/css/main.98f5d1ec.css.map",
-    "main.883eb307.js.map": "/static/js/main.883eb307.js.map",
+    "main.5df2c299.js.map": "/static/js/main.5df2c299.js.map",
     "787.e8337087.chunk.js.map": "/static/js/787.e8337087.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98f5d1ec.css",
-    "static/js/main.883eb307.js"
+    "static/js/main.5df2c299.js"
   ]
 }
