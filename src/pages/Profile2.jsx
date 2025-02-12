@@ -51,47 +51,6 @@ export default function Profile2() {
         </div>
       </div>
       <div className="container-fluid" style={{ padding: "24px 72px 0px" }}>
-        {kyc ? (
-          ""
-        ) : (
-          <div
-            className="row p-3  rounded"
-            style={{
-              backgroundColor: "#E3E3E3",
-              backgroundImage:
-                "linear-gradient(to right, #D1E7FF,#EEFFE3,#FFFFFF)",
-            }}
-          >
-            <div className="col-1 d-flex align-items-center">
-              <div className="text-center text-primary">
-                <ExclamationDiamondFill style={{ fontSize: 72 }} />
-              </div>
-            </div>
-            <div className="col-3 m-0">
-              <div className="font-inter fw-600 fs-18">
-                Verifikasi identitas Anda
-              </div>
-              <div className="font-inter fw-400 fs-14 mt-3">
-                Selesaikan proses verifikasi identitas untuk mengamankan akun
-                dan transaksi Anda.
-              </div>
-              <div className="font-inter fw-400 fs-14 text-danger mt-3">
-                Siapkan Kartu Identitas (KTP) Anda
-              </div>
-            </div>
-            <div className="col d-flex align-items-center">
-              <div
-                className="btn ms-5"
-                style={{ backgroundColor: "#2752E7" }}
-                onClick={() => navigate("/kyc")}
-              >
-                <p className="mb-0 font-inter fs-18 text-white">
-                  Selesaikan verifikasi KYC sekarang
-                </p>
-              </div>
-            </div>
-          </div>
-        )}
         <div className="row p-5">
           <div className="row mt-4">
             <div className="pe-4 h-100">
@@ -106,7 +65,7 @@ export default function Profile2() {
                         className="font-inter text-info fw-600 my-2"
                         style={{ fontSize: 32 }}
                       >
-                        <span className="text-dark me-2">hidayat</span>
+                        <span className="text-dark me-2">Halland Smith</span>
                         <PatchCheckFill />
                       </div>
                       <div className="font-inter fw-600 fs-14 text-success rounded d-flex align-items-center">
@@ -117,7 +76,7 @@ export default function Profile2() {
                           }}
                         >
                           <span className="me-2">
-                            Akun Anda telah Diverifikasi
+                            Your account has been Verified
                           </span>
                           <CheckCircleFill />
                         </div>
@@ -147,12 +106,12 @@ export default function Profile2() {
               </div>
 
               <div className="font-inter fw-400 fs-14 ">
-                Identitas Anda untuk login dan riwayat transaksi
+                Your identity for login and transaction history
               </div>
             </div>
             <div className="col-4">
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                @four_five3523
+                @hall_smith3523
               </div>
             </div>
           </div>
@@ -164,8 +123,8 @@ export default function Profile2() {
               </div>
 
               <div className="font-inter fw-400 fs-14 ">
-                Untuk login, penarikan, mengambil kata sandi, perubahan
-                pengaturan keamanan dan manajemen API.
+                For login, Withdrawal, Password, Change security opstions and
+                API management.
               </div>
             </div>
             <div className="col-4">
@@ -173,9 +132,9 @@ export default function Profile2() {
                 <div className="">
                   <CheckCircleFill className="text-success" />
                   {view ? (
-                    <span className="ms-2">hidayat_four@gmail.com</span>
+                    <span className="ms-2">halland_smith@gmail.com</span>
                   ) : (
-                    <span className="ms-2">hida**@gmail.com</span>
+                    <span className="ms-2">hall**@gmail.com</span>
                   )}
                 </div>
               </div>
@@ -185,12 +144,12 @@ export default function Profile2() {
           <div className="row mt-4">
             <div className="col">
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                Kontak
+                Phone
               </div>
 
               <div className="font-inter fw-400 fs-14 ">
-                Untuk login, penarikan, mengambil kata sandi, perubahan
-                pengaturan keamanan dan manajemen API.
+                For login, Withdrawal, Password, Change security opstions and
+                API management.
               </div>
             </div>
             <div className="col-4">
@@ -217,7 +176,7 @@ export default function Profile2() {
               </div>
 
               <div className="font-inter fw-400 fs-14 ">
-                Point bisa digunakan atau di redeem cash out ke rekening Anda
+                Points can be used or redeemed for cash out into your account
               </div>
             </div>
             <div className="col-4">
@@ -237,7 +196,7 @@ export default function Profile2() {
             <div className="col">
               <div className="font-roboto fw-700" style={{ fontSize: 32 }}>
                 {" "}
-                Data Pribadi
+                Personal Data
               </div>
             </div>
             <div className="col-2 d-flex align-items-center">
@@ -246,24 +205,24 @@ export default function Profile2() {
                 data-bs-toggle="modal"
                 data-bs-target="#ChangeProfile"
               >
-                ubah
+                change
               </div>
             </div>
           </div>
           <div className="row mt-4">
             <div className="col-3">
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                Tempat Kelahiran
+                Place of birth
               </div>
-              <div className="font-inter fw-400 fs-16">Tanjung Pinang</div>
+              <div className="font-inter fw-400 fs-16">Missisipi</div>
             </div>
             <div className="col">
               <div className="col-3">
                 <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                  Alamat
+                  Address
                 </div>
                 <div className="font-inter fw-400 fs-16">
-                  Jl. Kemanggisan Ilir 3
+                  St. Laurent IV B3/66
                 </div>
               </div>
             </div>
@@ -271,50 +230,48 @@ export default function Profile2() {
           <div className="row mt-3">
             <div className="col-3">
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                Tanggal Lahir
+                Date of Birth
               </div>
               <div className="font-inter fw-400 fs-16">14-05-1989</div>
             </div>
             <div className="col">
               <div className="col-3">
                 <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                  Provinsi
+                  State
                 </div>
-                <div className="font-inter fw-400 fs-16">DKI Jakarta</div>
+                <div className="font-inter fw-400 fs-16">Missisipi</div>
               </div>
             </div>
           </div>
           <div className="row mt-3">
             <div className="col-3">
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                Jenis Kelamin
+                Gender
               </div>
-              <div className="font-inter fw-400 fs-16">Laki -Laki </div>
+              <div className="font-inter fw-400 fs-16">Man </div>
             </div>
             <div className="col">
               <div className="col-3">
                 <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                  Kota
+                  City
                 </div>
-                <div className="font-inter fw-400 fs-16">
-                  KOTA ADM JAKARTA BARAT
-                </div>
+                <div className="font-inter fw-400 fs-16">Tillatoba</div>
               </div>
             </div>
           </div>
           <div className="row mt-3">
             <div className="col-3">
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                Kewarganegaraan
+                Citizenship
               </div>
-              <div className="font-inter fw-400 fs-16">Indonesia</div>
+              <div className="font-inter fw-400 fs-16">Mexico</div>
             </div>
             <div className="col">
               <div className="col-3">
                 <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                  Kode Pos
+                  Post code
                 </div>
-                <div className="font-inter fw-400 fs-16">174857</div>
+                <div className="font-inter fw-400 fs-16">38961</div>
               </div>
             </div>
           </div>
@@ -323,7 +280,7 @@ export default function Profile2() {
             <div className="col">
               <div className="font-roboto fw-700" style={{ fontSize: 32 }}>
                 {" "}
-                Kontak darurat
+                Emergency Email
               </div>
             </div>
             <div className="col-2 d-flex align-items-center">
@@ -332,7 +289,7 @@ export default function Profile2() {
                 data-bs-toggle="modal"
                 data-bs-target="#ChangeProfile"
               >
-                ubah
+                change
               </div>
             </div>
           </div>
@@ -341,14 +298,16 @@ export default function Profile2() {
               <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
                 Nama
               </div>
-              <div className="font-inter fw-400 fs-16">Anissa Azahraa</div>
+              <div className="font-inter fw-400 fs-16">Halland Smith</div>
             </div>
             <div className="col">
               <div className="col-3">
                 <div className="font-inter fw-600 " style={{ fontSize: 20 }}>
-                  Nomor telepon
+                  Email
                 </div>
-                <div className="font-inter fw-400 fs-16">+62854-7858-545</div>
+                <div className="font-inter fw-400 fs-16">
+                  hallandsmith2@gmail.com
+                </div>
               </div>
             </div>
           </div>
@@ -356,7 +315,7 @@ export default function Profile2() {
             <div className="col">
               <div className="font-roboto fw-700" style={{ fontSize: 32 }}>
                 {" "}
-                Aktivitas Akun
+                Account Activity
               </div>
             </div>
             <div className="col-2 d-flex align-items-center">
@@ -371,11 +330,11 @@ export default function Profile2() {
           <div className="row mt-3">
             <div className="col">
               <div className="font-inter fw-400 fs-16">
-                Login Terakhir : 02-02-2023 14:26:21
+                Last Login : 02-02-2023 14:26:21
               </div>
               <div className="font-inter fw-400 fs-16 mt-2">
-                Aktivitas akun yang mencurigakan?
-                <span className="text-primary"> Nonaktifkan Akun?</span>
+                Suspicious account activity?
+                <span className="text-primary"> Non-Active Account?</span>
               </div>
             </div>
           </div>

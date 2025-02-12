@@ -23,7 +23,7 @@ export default function Security2() {
   const navigate = useNavigate()
   const [security, setSecurity] = useState(0)
   const [status, setStatus] = useState({
-    phonenumber: false,
+    phonenumber: true,
     pin: false,
     "2fa": false,
   })
@@ -61,7 +61,7 @@ export default function Security2() {
         style={{ backgroundColor: "	rgb(192,192,192,0.2)" }}
       >
         <div className="font-roboto fw-700 px-5 py-4" style={{ fontSize: 32 }}>
-          Keamanan
+          Security
         </div>
         <div className="text-muted px-5 py-4" style={{ fontSize: 32 }}>
           <AiFillLock />
@@ -69,14 +69,14 @@ export default function Security2() {
       </div>
       <div className="container-fluid" style={{ padding: "24px 72px 0px" }}>
         <div className="col-6 font-roboto fw-700 mt-5" style={{ fontSize: 32 }}>
-          Autentikasi Google (2FA)
+          Google Authentication (2FA)
         </div>
         <div className="mt-4">
           <div className="row">
             <div className="col-6 font-roboto fw-400" style={{ fontSize: 20 }}>
-              Autentikasi Biometrik
+              Biometric Auth
               <div className="font-inter fw-400 fs-14">
-                Lindungi akun dan penarikan Anda dengan keamanan biometrik
+                Protect your account and withdrawal with biometric security
               </div>
             </div>
 
@@ -92,9 +92,9 @@ export default function Security2() {
           </div>
           <div className="row mt-4">
             <div className="col-6 font-roboto fw-400" style={{ fontSize: 20 }}>
-              Google Authenticator (Direkomendasikan)
+              Google Authenticator (Recomended)
               <div className="font-inter fw-400 fs-14">
-                Digunakan untuk melakukan penarikan dan perubahan keamanan
+                use for withdrawal transaction and change security setting
               </div>
             </div>
 
@@ -111,14 +111,14 @@ export default function Security2() {
         </div>
         <hr style={{ margin: "50px 0px" }} />
         <div className="col-6 font-roboto fw-700" style={{ fontSize: 32 }}>
-          Verifikasi email
+          Email Verification
         </div>
         <div className="mt-4">
           <div className="row">
             <div className="col-6 font-roboto fw-400" style={{ fontSize: 20 }}>
-              Verifikasi Nomor Ponsel
+              Phone Number Verfication
               <div className="font-inter fw-400 fs-14">
-                Lindungi akun dan transaksi Anda.
+                Protect your account and transaction
               </div>
             </div>
 
@@ -134,9 +134,9 @@ export default function Security2() {
           </div>
           <div className="row mt-4">
             <div className="col-6 font-roboto fw-400" style={{ fontSize: 20 }}>
-              Verifikasi Alamat Email
+              Email Verification
               <div className="font-inter fw-400 fs-14">
-                Lindungi akun dan transaksi Anda.
+                Protect your account and transaction
               </div>
             </div>
 
@@ -145,7 +145,7 @@ export default function Security2() {
               style={{ fontSize: 20 }}
             >
               <CheckCircleFill />{" "}
-              <span className="mx-2"> hidaya***@gmail.com</span>
+              <span className="mx-2"> hall***@gmail.com</span>
             </div>
             <div className="col-3 d-flex align-items-center justify-content-end">
               {/* <div className="btn btn-sm btn-secondary">Reset</div> */}
@@ -154,14 +154,14 @@ export default function Security2() {
         </div>
         <hr style={{ margin: "100px 0px" }} />
         <div className="col-6 font-roboto fw-700" style={{ fontSize: 32 }}>
-          Keamanan tingkat lanjut
+          Advance Security Setting
         </div>
         <div className="mt-4 mb-5   ">
           <div className="d-flex justify-content-between">
             <div className="font-roboto fw-400" style={{ fontSize: 20 }}>
-              Kata sandi
+              Password
               <div className="font-inter fw-400 fs-14">
-                Kata sandi digunakan untuk masuk ke akun Anda.
+                set password for login yourr account and secure transaction
               </div>
             </div>
             <div className="d-flex align-items-center justify-content-end">
@@ -170,29 +170,32 @@ export default function Security2() {
           </div>
         </div>
       </div>
-      <div className="container-fluid" style={{ padding: "24px 72px 0px" }}>
+      <div
+        className="container-fluid mb-5"
+        style={{ padding: "24px 72px 0px" }}
+      >
         <div className="font-roboto fw-600" style={{ fontSize: 20 }}>
-          Tingkat keamanan akun Anda :{" "}
+          Status of Account Security:{" "}
           {security == 2 ? (
             <span
               className="py-1 px-3 text-warning  rounded ms-2"
               style={{ backgroundColor: "#FEF1F2" }}
             >
-              Sedang
+              Medium
             </span>
           ) : security == 3 ? (
             <span
               className="py-1 px-3 text-success  rounded ms-2"
               style={{ backgroundColor: "#E8FFF7" }}
             >
-              Tinggi
+              High
             </span>
           ) : (
             <span
               className="py-1 px-3 text-danger  rounded ms-2"
               style={{ backgroundColor: "#FEF1F2" }}
             >
-              Rendah
+              Low
             </span>
           )}
         </div>
@@ -203,7 +206,7 @@ export default function Security2() {
                 className="font-roboto fw-700 d-flex"
                 style={{ fontSize: 20 }}
               >
-                <>1. Aktivasi Nomor Telepon</>
+                <>1. Phone Number Activation</>
                 {status.phonenumber ? (
                   <>
                     <div
@@ -213,7 +216,7 @@ export default function Security2() {
                       <CheckCircle />
                     </div>
                     <div className="text-center rounded-circle ms-2 text-muted fs-14 mt-1">
-                      Terverifikasi
+                      Verified
                     </div>
                   </>
                 ) : (
@@ -236,12 +239,12 @@ export default function Security2() {
                 </div>
                 <div className="col">
                   <div className="font-roboto fw-600">
-                    Aktivasi Nomor Telpon
+                    Phone Number Activation
                   </div>
                   <p className="font-inter fs-14 mb-0 mt-2">
-                    Untuk melindungi keamanan akun Anda, harap verifikasi nomor
-                    telepon Anda.Kami tidak akan menggunakan nomor telepon Anda
-                    untuk tujuan lain.
+                    To protect the security of your account, please verify the
+                    number your phone.We will not use your phone number for
+                    other purposes.
                   </p>
                   {status.phonenumber ? (
                     <div
@@ -249,7 +252,7 @@ export default function Security2() {
                       style={{ backgroundColor: "#2752E7" }}
                     >
                       <p className="mb-0 text-roboto text-white px-3">
-                        Terverifikasi
+                        Verified
                       </p>
                     </div>
                   ) : (
@@ -289,7 +292,7 @@ export default function Security2() {
                       className="text-center rounded-circle ms-2 fs-14 text-muted mt-1"
                       style={{ marginTop: -3 }}
                     >
-                      Aktif
+                      Active
                     </div>
                   </>
                 ) : (
@@ -315,8 +318,8 @@ export default function Security2() {
                     Personal Identification Number
                   </div>
                   <p className="font-inter fs-14 mb-0 mt-2">
-                    PIN Guard membantu mencegah akses penarikan ke akun Anda
-                    dengan meminta PIN.
+                    PIN Guard helps prevent withdrawal access to your account by
+                    asking for a PIN.
                   </p>
                   {status.phonenumber ? (
                     status.pin ? (
@@ -326,7 +329,7 @@ export default function Security2() {
                         data-bs-target="#ResetPinSecurity"
                       >
                         <p className="mb-0 text-roboto text-primary px-3">
-                          Ubah
+                          Change
                         </p>
                       </div>
                     ) : (
@@ -337,7 +340,7 @@ export default function Security2() {
                         data-bs-target="#PinSecurity"
                       >
                         <p className="mb-0 text-roboto text-white px-3">
-                          Aktifkan
+                          Activate
                         </p>
                       </div>
                     )
@@ -348,9 +351,7 @@ export default function Security2() {
                       data-bs-toggle="modal"
                       data-bs-target="#PhoneNumberFalse"
                     >
-                      <p className="mb-0 text-roboto text-white px-3">
-                        Aktifkan
-                      </p>
+                      <p className="mb-0 text-roboto text-white px-3">done</p>
                     </div>
                   )}
                 </div>
@@ -379,7 +380,7 @@ export default function Security2() {
                       className="text-center rounded-circle ms-2 fs-14 text-muted mt-1"
                       style={{ marginTop: -3 }}
                     >
-                      Aktif
+                      Active
                     </div>
                   </>
                 ) : (
@@ -403,9 +404,9 @@ export default function Security2() {
                 <div className="col">
                   <div className="font-roboto fw-600">Google Authenticator</div>
                   <p className="font-inter fs-14 mb-0 mt-2">
-                    Otentikasi Google 2FA membantu mencegah akses yang tidak sah
-                    ke akun Anda dengan meminta kata sandi satu kali setelah
-                    setiap mencoba masuk.
+                    Google 2FA authentication helps prevent unauthorized access
+                    to your account by requesting a one-time password after
+                    every time you try to log in.
                   </p>
                   {status.phonenumber ? (
                     status["2fa"] ? (
@@ -415,7 +416,7 @@ export default function Security2() {
                         data-bs-target="#askChange2fa"
                       >
                         <p className="mb-0 text-roboto text-primary px-3">
-                          ubah
+                          Change
                         </p>
                       </div>
                     ) : (
@@ -427,7 +428,7 @@ export default function Security2() {
                           className="mb-0 text-roboto text-white px-3"
                           onClick={() => navigate("/2fa")}
                         >
-                          Aktifkan
+                          Activate
                         </p>
                       </div>
                     )
@@ -438,9 +439,7 @@ export default function Security2() {
                       data-bs-toggle="modal"
                       data-bs-target="#PhoneNumberFalse"
                     >
-                      <p className="mb-0 text-roboto text-white px-3">
-                        Aktifkan
-                      </p>
+                      <p className="mb-0 text-roboto text-white px-3">Done</p>
                     </div>
                   )}
                 </div>
@@ -473,16 +472,15 @@ export default function Security2() {
                 <div className="col">
                   <div className="font-roboto fw-600">Whitelist</div>
                   <p className="font-inter fs-14 mb-0 mt-2">
-                    Manajemen alamat memungkinkan Anda untuk mengatur akses
-                    login menggunakan IP tertentu. Bertujuan untuk membantu
-                    melindungi akun anda dengan hanya mengizinkan alamat yang
-                    masuk whitelist.
+                    Address management allows you to organize access login using
+                    a specific IP. Aim to help protect your account by only
+                    allowing addresses that are whitelisted.
                   </p>
                   <div
                     className="btn btn-sm mt-3 mb-4"
                     style={{ backgroundColor: "#2752E7" }}
                   >
-                    <p className="mb-0 text-roboto text-white px-3">Aktifkan</p>
+                    <p className="mb-0 text-roboto text-white px-3">Activate</p>
                   </div>
                 </div>
               </div>

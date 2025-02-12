@@ -155,14 +155,7 @@ export default function NavbarTrue() {
                       Profile
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="dropdown-item pointer"
-                      onClick={() => navigate("/wallet")}
-                    >
-                      Inventory
-                    </a>
-                  </li>
+
                   <li>
                     <a
                       className="dropdown-item pointer"
