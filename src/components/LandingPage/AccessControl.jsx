@@ -5,7 +5,7 @@ export default function AccessControlLandingPage() {
   return (
     <>
       <div className="row mt-5 px-5">
-        <div className="col-6">
+        <div className="col-md-6">
           <div className="row d-flex justify-content-center">
             <div className="col-8 py-5 ">
               <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
@@ -22,7 +22,7 @@ export default function AccessControlLandingPage() {
             </div>
           </div>
         </div>
-        <div className="col-6 d-flex justify-content-center align-items-center">
+        <div className="col-md-6 d-flex justify-content-center align-items-center">
           <div className="px-5">
             <div
               className="font-roboto"

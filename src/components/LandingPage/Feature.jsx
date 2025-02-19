@@ -4,7 +4,7 @@ export default function FeatureLandingPage() {
 	return (
     <>
       <div className="row mb-5 px-5 mt-5">
-        <div className="col-6 d-flex justify-content-center align-items-center">
+        <div className="col-md-6 d-flex justify-content-center align-items-center">
           <div className="p-5">
             <div className="row">
               <div className="col-1">
@@ -115,7 +115,7 @@ export default function FeatureLandingPage() {
             </div>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <img src={img_sample_image_1} alt="" className="img-fluid" />
         </div>
       </div>

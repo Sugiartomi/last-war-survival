@@ -33,7 +33,7 @@ export default function NeedHelpLandingPage() {
         </div>
         <div className="container mt-5">
           <div className="row">
-            <div className="col-4">
+            <div className="col-md-6 col-lg-4">
               <div
                 className="card py-5"
                 onClick={() =>
@@ -72,7 +72,7 @@ export default function NeedHelpLandingPage() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-md-6 col-lg-4">
               <div
                 className="card py-5"
                 onClick={() =>
@@ -111,7 +111,7 @@ export default function NeedHelpLandingPage() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-md-6 col-lg-4 ">
               <div
                 className="card py-5"
                 onClick={() =>

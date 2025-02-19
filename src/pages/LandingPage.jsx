@@ -50,7 +50,7 @@ export default function LandingPage() {
             </div>
             <div className="container">
               <div className="row" style={{ margin: "150px 0 200px" }}>
-                <div className="col-6 d-flex justify-content-center">
+                <div className="col-12 col-md-6 d-flex justify-content-center">
                   <div className=" d-flex justify-content-center">
                     <motion.div
                       initial={{ opacity: 0, scale: 0 }}
@@ -73,7 +73,7 @@ export default function LandingPage() {
                     </motion.div>
                   </div>
                 </div>
-                <div className="col-6 d-flex justify-content-start align-items-center mt-4  ">
+                <div className="col-12 col-md-6 d-flex justify-content-start align-items-center mt-4  ">
                   <div>
                     <div
                       className="col-11 font-inter text-center text-white p-4"
@@ -118,7 +118,10 @@ export default function LandingPage() {
           <NeedHelpLandingPage />
         </div>
 
-        <div className="row" style={{ padding: "96px 120px" }}>
+        <div
+          className="row d-none d-xl-block"
+          style={{ padding: "96px 120px" }}
+        >
           <div className="container" style={{ position: "relative" }}>
             <img src={img_background_1} alt="Snow" style={{ width: "100%" }} />
             <div
